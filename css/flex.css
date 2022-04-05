@@ -1,0 +1,149 @@
+/* premiere partie pour ordinateur */
+
+@media screen and (max-width: 1280px) {
+    #pictures .imgsection img
+  {
+    width: 300px;
+    
+  }
+  #section2 .centersection {
+   margin: 0 25px;
+  }
+
+  .contenair .rightcontenair
+{
+    width: 500px;
+}
+}
+
+/* deuxieme partie pour tablette */
+@media screen and (max-width: 1024px) {
+    #pictures .imgsection img
+  {
+    width: 200px;
+    
+  }
+
+  #section2 .centersection {
+    width: 340px;
+    margin: 0 25px;
+  }
+
+  #section2 .leftsection img
+  {
+      width: 225px;
+  }
+
+
+  #section2 .rightsection img
+  {
+    width: 300px;
+  }
+
+  #main .contenaire img 
+  {
+      width: 470px;
+  }
+
+  #main .contenair
+{
+   width: 100%;
+     
+}
+}
+
+/* troisieme partie pour tablette */
+@media screen and (max-width: 930px) {
+    #main .contenaire img {
+        width: 370px;
+        padding: 10px;
+    }
+    #section2 .centersection {
+        width: 240px;
+       
+    }
+
+    #main h2, #section2 h2 
+    {
+        font-size: 2rem;
+    }
+
+    #main .contenair .leftcontenair img {
+        width: 350px;
+        filter: grayscale(5);
+    }
+}
+
+/* quatrieme partie pour smartphone */
+
+@media screen and (max-width: 425px) {
+    header .textheader h2 {
+        font-size: 2rem;
+    }
+    header .textheader{
+        width: 100%;
+    }
+
+    #main .contenair {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main .contenair .leftcontenair {
+        margin-bottom: 15px;
+    }
+
+    #main .contenair .rightcontenair {
+        width: 100%;
+    }
+
+    #main .contenair
+    {
+        margin: 25px 0;
+    }
+
+    #main .contenaire {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgsection {
+        display: flex;
+      
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgsection img {
+       margin-bottom: 10px;
+    }
+
+    body #about p {
+        width: 100%;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    footer .newletter {
+        width: 100%;
+        
+    }
+
+    .part2 h3 {
+        font-size: 1rem;
+    }
+
+   footer .copyright {
+       
+        height: 100px;
+        
+    }
+}
